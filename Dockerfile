@@ -1,4 +1,4 @@
-FROM golang:alpine AS build
+FROM golang:1.10 AS build
 
 WORKDIR /src/
 COPY main.go /src/
